@@ -5,85 +5,49 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Console;
 
-namespace Area_Calculator
+namespace blank1211321321
 {
     class Program
     {
         static void Main(string[] args)
         {
-            double height;
-            double base1;
-            double base2;
-            double radius;
-            double width;
-            double length;
-            int name;
+            //string aNumberValue;
+            string mula;
+            double euros;
+            double dollars;
+            //string ageValue;
+            string mlHeight;
+            int mileinch;
+            //int aNumber;
+            int mileInch;
+            //int age;
 
-            WriteLine("Please choose to find the area of a circle, triangle, rectangle, trapezoid or the surface area of cylinder by typing 1, 2, 3, 4 or 5 for each of these (in order!)");
-            name = int.Parse(ReadLine());
+            //Write("Enter a number: ");
+            //aNumberValue = ReadLine();
+            //aNumber = int.Parse(aNumberValue);
+            //WriteLine("The square root of that number is " + Math.Sqrt(aNumber));
+            //Write("Now, enter your age: ");
+            //ageValue = ReadLine();
+            //age = int.Parse(ageValue);
+            //WriteLine("Your age next year will be {0} ", ++age);
+            Write("Enter your value in miles: ");
+            mlHeight = ReadLine();
+            mileinch = int.Parse(mlHeight);
+            mileInch = mileinch * 5280;
+            WriteLine("Your value in inches is: " + mileInch + "in");
+            Write("Please enter an amount in Euros: ");
+            mula = ReadLine();
+            euros = int.Parse(mula);
+            dollars = euros * 1.11;
+            WriteLine(euros + " euro is about " + dollars.ToString("C2"));
 
-            switch (name)
-            {
-                case 1: WriteLine("1");
-                    WriteLine("You have chosen circle, please enter a radius");
-                    radius = double.Parse(ReadLine());
-                    WriteLine("The circle's area is {0}. Thanks for using our program!", circle(radius));
-                    break;
-                case 2: WriteLine("2");
-                    WriteLine("You have chosen triangle, please enter the height!");
-                    height = double.Parse(ReadLine());
-                    WriteLine("Now please enter the base's length!");
-                    base1 = double.Parse(ReadLine());
-                    WriteLine("The triangle has an area of {0}. Thanks for using our program!", triangle(height, base1));
-                    break;
-                case 3: WriteLine("3");
-                    WriteLine("You have chosen a rectangle, please enter a length!");
-                    length = double.Parse(ReadLine());
-                    WriteLine("Now, please enter a width!");
-                    width = double.Parse(ReadLine());
-                    WriteLine("The rectangle has an area of {0}. Thanks for using our program!", rectangle(width, length));
-                    break;
-                case 4: WriteLine("4");
-                    WriteLine("You have chosen a trapezoid, please enter a base!");
-                    base1 = double.Parse(ReadLine());
-                    WriteLine("Now, please enter the remaining base!");
-                    base2 = double.Parse(ReadLine());
-                    WriteLine("Now, please enter the height!");
-                    height = double.Parse(ReadLine());
-                    WriteLine("The trapezoid has an area of {0}. Thanks for using our program!", trapezoid(base1, base2, height));
-                    break;
-                case 5: WriteLine("5");
-                    WriteLine("You have chosen a cylinder, please enter a radius!");
-                    radius = double.Parse(ReadLine());
-                    WriteLine("Now, please enter the height!");
-                    height = double.Parse(ReadLine());
-                    WriteLine("The cylinder has a surface area of {0}. Thanks for using our program!", cylinder(radius, height));
-                    break;
 
-                default: WriteLine("Please enter one of the actual numbers!");
-                    break;
-            }
-            ReadKey();
+
+            Console.Read();
         }
-        public static double trapezoid(double base1, double base2, double height)
+        public static int inches(int feet)
         {
-            return ((base1 + base2) / 2) * height;
+            return feet * 12;
         }
-        public static double circle(double radius)
-        {
-            return (Math.PI * (radius * radius));
-        }
-        public static double triangle(double height, double base1)
-        {
-            return (height * base1) / 2;
-        }
-        public static double rectangle (double width, double length)
-        {
-            return width * length;
-        }
-        public static double cylinder (double radius, double height)
-        {
-            return (2 * Math.PI * radius * height) + (2 * Math.PI * (radius * radius));
-        } 
     }
 }

@@ -1,0 +1,6 @@
+C:\Users\jdwoo090\source\repos\blank1211321321\blank1211321321\bin\Debug\blank1211321321.exe.config
+C:\Users\jdwoo090\source\repos\blank1211321321\blank1211321321\bin\Debug\blank1211321321.exe
+C:\Users\jdwoo090\source\repos\blank1211321321\blank1211321321\bin\Debug\blank1211321321.pdb
+C:\Users\jdwoo090\source\repos\blank1211321321\blank1211321321\obj\Debug\blank1211321321.csprojAssemblyReference.cache
+C:\Users\jdwoo090\source\repos\blank1211321321\blank1211321321\obj\Debug\blank1211321321.exe
+C:\Users\jdwoo090\source\repos\blank1211321321\blank1211321321\obj\Debug\blank1211321321.pdb
