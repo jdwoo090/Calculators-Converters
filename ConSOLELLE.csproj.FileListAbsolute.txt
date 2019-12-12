@@ -1,0 +1,6 @@
+C:\Users\jdwoo090\source\repos\ConSOLELLE\ConSOLELLE\bin\Debug\ConSOLELLE.exe.config
+C:\Users\jdwoo090\source\repos\ConSOLELLE\ConSOLELLE\bin\Debug\ConSOLELLE.exe
+C:\Users\jdwoo090\source\repos\ConSOLELLE\ConSOLELLE\bin\Debug\ConSOLELLE.pdb
+C:\Users\jdwoo090\source\repos\ConSOLELLE\ConSOLELLE\obj\Debug\ConSOLELLE.csprojAssemblyReference.cache
+C:\Users\jdwoo090\source\repos\ConSOLELLE\ConSOLELLE\obj\Debug\ConSOLELLE.exe
+C:\Users\jdwoo090\source\repos\ConSOLELLE\ConSOLELLE\obj\Debug\ConSOLELLE.pdb
