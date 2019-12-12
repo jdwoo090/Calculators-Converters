@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ConSOLELLE")]
+[assembly: AssemblyTitle("Iteration_Practice")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ConSOLELLE")]
+[assembly: AssemblyProduct("Iteration_Practice")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b877b0d9-c836-4149-974d-c3a0bccba5a0")]
+[assembly: Guid("c49b94a2-9bfb-450a-80bf-b7e4956253c3")]
 
 // Version information for an assembly consists of the following four values:
 //
