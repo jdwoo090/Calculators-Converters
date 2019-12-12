@@ -1,49 +1,35 @@
-﻿using System;
+﻿//using static BIGBOY collection;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Console;
 
-
-namespace Loop
+namespace Method_Quiz_Part_2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int num = 0;
-            //int num2 = 0;
-            string val = "";
+            double length;
+            double width;
+            double height;
 
-            WriteLine("Please Enter a Number: ");
-            num = int.Parse(ReadLine());
-            //WriteLine("Please Enter Another Number: ");
-            //num2 = int.Parse(ReadLine());
-            WriteLine("Is {0} your number?", num);
-            if (ReadLine().ToString().ToLower() == "yes")
-            {
-                WriteLine("Ok, good! Here are your numbers: ");
-                for (int m = 1; m <= num; m++)
-                {
-                    for(int n = 1; n <= m; n++)
-                    {
-                        Write(m + " ");
-                    }
-                    WriteLine();
-                }
-                ReadLine();
-            }
-            else
-            {
-                WriteLine("That's too bad, please try again later...");
-            }
+            WriteLine("Please enter the length of a rectangular prism");
+            length = double.Parse(ReadLine());
+            WriteLine("Please enter the width of a rectangular prism");
+            width = double.Parse(ReadLine());
+            WriteLine("Please enter the height of a rectangular prism");
+            height = double.Parse(ReadLine());
+
+            WriteLine("The surface area of the rectangular prism is {0} units!", SA(length, width, height));
+
             ReadKey();
-            /*for(int counter = 0; counter < 11; counter++)
-            {
-                WriteLine("{0}\t{1}\t{2}", counter, Math.Pow(counter, 2), Math.Pow(counter, 3));
-            }
-                ReadKey();*/
+        }
+        public static double SA (double l, double w, double h)
+        {
+            return (2 * ((l * w) + (l * h) + (h * w)));
         }
     }
 }

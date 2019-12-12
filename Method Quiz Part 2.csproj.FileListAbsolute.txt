@@ -1,0 +1,6 @@
+C:\Users\jdwoo090\source\repos\Method Quiz Part 2\Method Quiz Part 2\bin\Debug\Method Quiz Part 2.exe.config
+C:\Users\jdwoo090\source\repos\Method Quiz Part 2\Method Quiz Part 2\bin\Debug\Method Quiz Part 2.exe
+C:\Users\jdwoo090\source\repos\Method Quiz Part 2\Method Quiz Part 2\bin\Debug\Method Quiz Part 2.pdb
+C:\Users\jdwoo090\source\repos\Method Quiz Part 2\Method Quiz Part 2\obj\Debug\Method Quiz Part 2.csprojAssemblyReference.cache
+C:\Users\jdwoo090\source\repos\Method Quiz Part 2\Method Quiz Part 2\obj\Debug\Method Quiz Part 2.exe
+C:\Users\jdwoo090\source\repos\Method Quiz Part 2\Method Quiz Part 2\obj\Debug\Method Quiz Part 2.pdb
