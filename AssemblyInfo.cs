@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Iteration_Practice")]
+[assembly: AssemblyTitle("Loop")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Iteration_Practice")]
+[assembly: AssemblyProduct("Loop")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c49b94a2-9bfb-450a-80bf-b7e4956253c3")]
+[assembly: Guid("35d3b9ed-ec66-4f8a-b810-aee66341be13")]
 
 // Version information for an assembly consists of the following four values:
 //
