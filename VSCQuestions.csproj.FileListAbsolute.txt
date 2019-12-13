@@ -1,0 +1,6 @@
+C:\Users\jdwoo090\source\repos\VSCQuestions\VSCQuestions\bin\Debug\VSCQuestions.exe.config
+C:\Users\jdwoo090\source\repos\VSCQuestions\VSCQuestions\bin\Debug\VSCQuestions.exe
+C:\Users\jdwoo090\source\repos\VSCQuestions\VSCQuestions\bin\Debug\VSCQuestions.pdb
+C:\Users\jdwoo090\source\repos\VSCQuestions\VSCQuestions\obj\Debug\VSCQuestions.csprojAssemblyReference.cache
+C:\Users\jdwoo090\source\repos\VSCQuestions\VSCQuestions\obj\Debug\VSCQuestions.exe
+C:\Users\jdwoo090\source\repos\VSCQuestions\VSCQuestions\obj\Debug\VSCQuestions.pdb
