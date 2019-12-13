@@ -1,35 +1,38 @@
-﻿//using static BIGBOY collection;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Console;
 
-namespace Method_Quiz_Part_2
+namespace QFinal
 {
     class Program
     {
         static void Main(string[] args)
         {
-            double length;
-            double width;
-            double height;
+            double minutes;
+            double hours;
+            double seconds;
+            string test;
 
-            WriteLine("Please enter the length of a rectangular prism");
-            length = double.Parse(ReadLine());
-            WriteLine("Please enter the width of a rectangular prism");
-            width = double.Parse(ReadLine());
-            WriteLine("Please enter the height of a rectangular prism");
-            height = double.Parse(ReadLine());
+            WriteLine("Please enter an amount of minutes so that we can convert them. Please no letters, spaces, words or commas.");
+            test = ReadLine();
 
-            WriteLine("The surface area of the rectangular prism is {0} units!", SA(length, width, height));
+            try
+            {
+                minutes = int.Parse(test);
+                seconds = minutes * 60;
+                hours = minutes / 60;
 
-            ReadKey();
-        }
-        public static double SA (double l, double w, double h)
-        {
-            return (2 * ((l * w) + (l * h) + (h * w)));
+                WriteLine(minutes + " minutes is exactly " + seconds + " seconds and " + hours + " hours.");
+                ReadKey();
+            }
+            catch
+            {
+                WriteLine("Sorry, but that input is invalid");
+                ReadKey();
+            }
         }
     }
 }

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Method Quiz Part 2")]
+[assembly: AssemblyTitle("QFinal")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Method Quiz Part 2")]
+[assembly: AssemblyProduct("QFinal")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c940ac05-d489-4aea-8780-2966b2012b4f")]
+[assembly: Guid("ac8a50b5-3ccf-471d-8db9-f16b0ddf02be")]
 
 // Version information for an assembly consists of the following four values:
 //
