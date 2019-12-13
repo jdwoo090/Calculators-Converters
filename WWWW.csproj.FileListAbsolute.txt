@@ -1,0 +1,9 @@
+C:\Users\jdwoo090\source\repos\WWWW\WWWW\bin\Debug\WWWW.exe.config
+C:\Users\jdwoo090\source\repos\WWWW\WWWW\bin\Debug\WWWW.exe
+C:\Users\jdwoo090\source\repos\WWWW\WWWW\bin\Debug\WWWW.pdb
+C:\Users\jdwoo090\source\repos\WWWW\WWWW\obj\Debug\WWWW.csprojAssemblyReference.cache
+C:\Users\jdwoo090\source\repos\WWWW\WWWW\obj\Debug\WWWW.formaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.resources
+C:\Users\jdwoo090\source\repos\WWWW\WWWW\obj\Debug\WWWW.Properties.Resources.resources
+C:\Users\jdwoo090\source\repos\WWWW\WWWW\obj\Debug\WWWW.csproj.GenerateResource.cache
+C:\Users\jdwoo090\source\repos\WWWW\WWWW\obj\Debug\WWWW.exe
+C:\Users\jdwoo090\source\repos\WWWW\WWWW\obj\Debug\WWWW.pdb

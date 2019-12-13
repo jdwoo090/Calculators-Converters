@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("VSCQuestions")]
+[assembly: AssemblyTitle("WWWW")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("VSCQuestions")]
+[assembly: AssemblyProduct("WWWW")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("4b578cc9-2d5e-4a58-bbdf-53f9baca0ba0")]
+[assembly: Guid("5ce74a15-c39b-4194-86f2-b1403ccf50e9")]
 
 // Version information for an assembly consists of the following four values:
 //
