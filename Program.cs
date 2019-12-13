@@ -5,34 +5,26 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Console;
 
-namespace QFinal
+namespace Q3
 {
     class Program
     {
         static void Main(string[] args)
         {
-            double minutes;
-            double hours;
-            double seconds;
-            string test;
-
-            WriteLine("Please enter an amount of minutes so that we can convert them. Please no letters, spaces, words or commas.");
-            test = ReadLine();
-
-            try
-            {
-                minutes = int.Parse(test);
-                seconds = minutes * 60;
-                hours = minutes / 60;
-
-                WriteLine(minutes + " minutes is exactly " + seconds + " seconds and " + hours + " hours.");
-                ReadKey();
-            }
-            catch
-            {
-                WriteLine("Sorry, but that input is invalid");
-                ReadKey();
-            }
+            int height;
+            string heightN;
+            int width;
+            string widthN;
+            int areaF;
+            WriteLine("Please enter the height of a rectangle in inches");
+            heightN = ReadLine();
+            WriteLine("Please enter the width of a rectangle in inches");
+            widthN = ReadLine();
+            height = int.Parse(heightN);
+            width = int.Parse(widthN);
+            areaF = height * width;
+            WriteLine("The area of the rectangle is exactly " + areaF + " inches");
+            ReadKey();
         }
     }
 }
