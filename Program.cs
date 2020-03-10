@@ -1,22 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
+using static System.Console;
 
-namespace WWWW
+namespace C_Console
 {
-    static class Program
+    class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
-        [STAThread]
-        static void Main()
+        static void Main(string[] args)
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new formaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa());
+            double dollarAMT;
+
+            WriteLine("Hello, welcome to the program! Please enter an amount of USD to convert!");
+            dollarAMT = double.Parse(ReadLine());
+            WriteLine(dollarAMT + " USD should be " + toPounds(dollarAMT) + " pounds");
+            ReadKey();
+        }
+
+        public static double toPounds(double dollars)
+        {
+            double pounds = dollars * 0.81;
+            return pounds;
         }
     }
 }

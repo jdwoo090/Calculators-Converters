@@ -1,0 +1,7 @@
+C:\Users\Jackson\source\repos\C_Console\C_Console\bin\Debug\C_Console.exe.config
+C:\Users\Jackson\source\repos\C_Console\C_Console\bin\Debug\C_Console.exe
+C:\Users\Jackson\source\repos\C_Console\C_Console\bin\Debug\C_Console.pdb
+C:\Users\Jackson\source\repos\C_Console\C_Console\obj\Debug\C_Console.csprojResolveAssemblyReference.cache
+C:\Users\Jackson\source\repos\C_Console\C_Console\obj\Debug\C_Console.csproj.CoreCompileInputs.cache
+C:\Users\Jackson\source\repos\C_Console\C_Console\obj\Debug\C_Console.exe
+C:\Users\Jackson\source\repos\C_Console\C_Console\obj\Debug\C_Console.pdb
