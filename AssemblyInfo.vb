@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Tip Calculator")>
+<Assembly: AssemblyTitle("WindowsApp32")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("Microsoft")>
-<Assembly: AssemblyProduct("Tip Calculator")>
-<Assembly: AssemblyCopyright("Copyright © Microsoft 2018")>
+<Assembly: AssemblyProduct("WindowsApp32")>
+<Assembly: AssemblyCopyright("Copyright © Microsoft 2019")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("377bf2a7-0751-4542-a661-86d84c87241a")>
+<Assembly: Guid("6a4a4dc9-e25f-4045-b329-22810266fb7c")>
 
 ' Version information for an assembly consists of the following four values:
 '

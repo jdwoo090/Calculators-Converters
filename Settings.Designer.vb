@@ -64,9 +64,9 @@ Namespace My
     Friend Module MySettingsProperty
 
         <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")> _
-        Friend ReadOnly Property Settings() As Global.Tip_Calculator.My.MySettings
+        Friend ReadOnly Property Settings() As Global.WindowsApp32.My.MySettings
             Get
-                Return Global.Tip_Calculator.My.MySettings.Default
+                Return Global.WindowsApp32.My.MySettings.Default
             End Get
         End Property
     End Module
