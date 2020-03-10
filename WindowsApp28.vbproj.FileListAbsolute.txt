@@ -1,0 +1,14 @@
+c:\users\jdwoo090\source\repos\WindowsApp28\WindowsApp28\bin\Debug\WindowsApp28.exe.config
+c:\users\jdwoo090\source\repos\WindowsApp28\WindowsApp28\bin\Debug\WindowsApp28.exe
+c:\users\jdwoo090\source\repos\WindowsApp28\WindowsApp28\bin\Debug\WindowsApp28.pdb
+c:\users\jdwoo090\source\repos\WindowsApp28\WindowsApp28\bin\Debug\WindowsApp28.xml
+c:\users\jdwoo090\source\repos\WindowsApp28\WindowsApp28\obj\Debug\WindowsApp28.vbprojAssemblyReference.cache
+c:\users\jdwoo090\source\repos\WindowsApp28\WindowsApp28\obj\Debug\WindowsApp28.Form1.resources
+c:\users\jdwoo090\source\repos\WindowsApp28\WindowsApp28\obj\Debug\WindowsApp28.Resources.resources
+c:\users\jdwoo090\source\repos\WindowsApp28\WindowsApp28\obj\Debug\WindowsApp28.vbproj.GenerateResource.cache
+c:\users\jdwoo090\source\repos\WindowsApp28\WindowsApp28\obj\Debug\WindowsApp28.vbproj.CoreCompileInputs.cache
+c:\users\jdwoo090\source\repos\WindowsApp28\WindowsApp28\obj\Debug\WindowsApp28.exe
+c:\users\jdwoo090\source\repos\WindowsApp28\WindowsApp28\obj\Debug\WindowsApp28.xml
+c:\users\jdwoo090\source\repos\WindowsApp28\WindowsApp28\obj\Debug\WindowsApp28.pdb
+C:\Users\jdwoo090\source\repos\WindowsApp28\WindowsApp28\obj\Debug\WindowsApp28.SplashScreen1.resources
+C:\Users\jdwoo090\source\repos\WindowsApp28\WindowsApp28\obj\Debug\WindowsApp28.Form2.resources

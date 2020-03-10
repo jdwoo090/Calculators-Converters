@@ -1,92 +1,41 @@
 ﻿Public Class Form1
-    Dim shopping As Double
-    Dim i As Double
-    Dim s As Double
-    Dim p As Double
-    Dim shopping2 As Double
-    Dim price As Double
-    Dim tax As Double
-    Dim total_price As Double
+    Dim money As Integer
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim r As New Random
+        Label1.Text = r.Next(1, 69)
+        Label2.Text = r.Next(1, 69)
+        Label3.Text = r.Next(1, 69)
+        Label4.Text = r.Next(1, 69)
+        Label5.Text = r.Next(1, 69)
+        Label6.Text = r.Next(1, 69)
+        Label7.Text = r.Next(1, 69)
+        Label8.Text = r.Next(1, 69)
+        money = money - 20
+        If TextBox1.Text = Label1.Text And TextBox2.Text = Label2.Text And TextBox3.Text = Label3.Text And TextBox4.Text = Label4.Text And TextBox5.Text = Label5.Text And TextBox6.Text = Label6.Text And TextBox7.Text = Label7.Text And TextBox8.Text = Label8.Text And TextBox1.Text <> "" Then
+            MessageBox.Show("JACKPOT!!!!!")
+            money = money + 2500000
+            moneyLabel.Text = "Money: " & money
+        ElseIf TextBox1.Text = Label1.Text And TextBox3.Text = Label3.Text And TextBox5.Text = Label5.Text And TextBox7.Text = Label7.Text And TextBox1.Text <> "" Then
+            MessageBox.Show("All odds!")
+            money = money + 1500
+            moneyLabel.Text = "Money: " & money
+        ElseIf TextBox2.Text = Label2.Text And TextBox4.Text = Label4.Text And TextBox6.Text = Label6.Text And TextBox8.Text = Label8.Text And textbox2.Text <> "" Then
+            MessageBox.Show("All evens!")
+            money = money + 2000
+            moneyLabel.Text = "Money: " & money
+        ElseIf TextBox1.Text = Label1.Text Or TextBox2.Text = Label2.Text Or TextBox3.Text = Label3.Text Or TextBox4.Text = Label4.Text Or TextBox5.Text = Label5.Text Or TextBox6.Text = Label6.Text Or TextBox7.Text = Label7.Text Or TextBox8.Text = Label8.Text And TextBox1.Text <> "" And TextBox2.Text <> "" And TextBox3.Text <> "" And TextBox4.Text <> "" And TextBox5.Text <> "" And TextBox6.Text <> "" And TextBox7.Text <> "" And TextBox8.Text <> "" Then
+            MessageBox.Show("You won a small prize!")
+            money = money + 25
+            moneyLabel.Text = "Money: " & money
+        Else
+            moneyLabel.Text = "Money: " & money
+        End If
+    End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        total_price = 0
-        shopping = 0
-        shopping2 = 0
-        Integer.TryParse(IphoneTextBox.Text, i)
-        Integer.TryParse(SamsungTextBox.Text, s)
-        Integer.TryParse(PixelTextBox.Text, p)
-        Integer.TryParse(PriceTextBox.Text, price)
-    End Sub
-
-    Private Sub ColorToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ColorToolStripMenuItem.Click
-        ColorDialog1.ShowDialog()
-        Me.BackColor = ColorDialog1.Color
-    End Sub
-
-    Private Sub FontToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FontToolStripMenuItem.Click
-        FontDialog1.ShowDialog()
-        Me.Font = FontDialog1.Font
-    End Sub
-
-    Private Sub ClearAllToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ClearAllToolStripMenuItem.Click
-        IphoneTextBox.Clear()
-        IphoneTextBoxCount.Clear()
-        SamsungTextBox.Clear()
-        SamsungTextBoxCount.Clear()
-        PixelTextBox.Clear()
-        PixelTextBoxCount.Clear()
-        TotalCostTextBox.Clear()
-        PriceTextBox.Clear()
-        TaxTextBox.Clear()
-    End Sub
-
-    Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click
-        Me.Close()
-    End Sub
-
-    Private Sub IphoneButton_Click(sender As Object, e As EventArgs) Handles IphoneButton.Click
-        Integer.TryParse(IphoneTextBox.Text, i)
-        IphoneTextBoxCount.Text = i
-        PriceTextBox.Text = (i * 900) + (s * 290) + (p * 320)
-        Integer.TryParse(PriceTextBox.Text, price)
-        TaxTextBox.Text = price * 0.0818
-        total_price = TaxTextBox.Text + price
-        TotalCostTextBox.Text = total_price.ToString("C2")
-    End Sub
-
-    Private Sub ShopButton_Click(sender As Object, e As EventArgs) Handles ShopButton.Click
-        MessageBox.Show("Thanks for your purchase!")
-        MessageBox.Show("Shipping: five bussiness days")
-        MessageBox.Show("Price: " & TotalCostTextBox.Text)
-        Me.Close()
-    End Sub
-
-    Private Sub SamsungButton_Click(sender As Object, e As EventArgs) Handles SamsungButton.Click
-        Integer.TryParse(SamsungTextBox.Text, s)
-        SamsungTextBoxCount.Text = s
-        PriceTextBox.Text = (i * 900) + (s * 290) + (p * 320)
-        Integer.TryParse(PriceTextBox.Text, price)
-        TaxTextBox.Text = price * 0.0818
-        total_price = TaxTextBox.Text + price
-        TotalCostTextBox.Text = total_price.ToString("C2")
-    End Sub
-
-    Private Sub PixelButton_Click(sender As Object, e As EventArgs) Handles PixelButton.Click
-        Integer.TryParse(PixelTextBox.Text, p)
-        PixelTextBoxCount.Text = p
-        PriceTextBox.Text = (i * 900) + (s * 290) + (p * 320)
-        Integer.TryParse(PriceTextBox.Text, price)
-        TaxTextBox.Text = price * 0.0818
-        total_price = TaxTextBox.Text + price
-        TotalCostTextBox.Text = total_price.ToString("C2")
-    End Sub
-
-    Private Sub HelpToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HelpToolStripMenuItem.Click
-        MessageBox.Show("Get your own help!")
-    End Sub
-
-    Private Sub MoreToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MoreToolStripMenuItem.Click
-        MessageBox.Show("Our about page")
-        System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+        Form2.ShowDialog()
+        money = 20
+        moneyLabel.Text = "Money: " & money
     End Sub
 End Class

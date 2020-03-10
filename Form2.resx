@@ -117,7 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Welcome to EZLotto also known as Golden Lottery!
+ In this game you will be presented with a set of textboxes 
+and your current amount of money. To play, insert any 
+number from 1 to 68 and click roll. It will cost 20$ per game, 
+but the prizes are worth the cost! If you get every other number 
+to match, you can either get all odd or all even 
+(depending on which textboxes) which will result in either a 
+1500 or 2000 dollar payout. Not only that but if you get all of them 
+the same you get the grand prize of 2500000$!!!!! Finally even if you only 
+get one number to match, don't worry as you get a small pize of 25$ 
+(an immediate gain!) . So, what will YOU win today?</value>
+  </data>
 </root>
