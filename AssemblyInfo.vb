@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("EZLotto")>
+<Assembly: AssemblyTitle("WindowsApp14")>
 <Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("MWEProductions")>
-<Assembly: AssemblyProduct("WindowsApp28")>
-<Assembly: AssemblyCopyright("Copyright © MWEProductions 2018")>
+<Assembly: AssemblyCompany("Microsoft")>
+<Assembly: AssemblyProduct("WindowsApp14")>
+<Assembly: AssemblyCopyright("Copyright © Microsoft 2018")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("9607990b-4279-45b1-b7f0-c0c905e83ce6")>
+<Assembly: Guid("39d8323f-932f-47e4-9cf5-f9097147583f")>
 
 ' Version information for an assembly consists of the following four values:
 '
