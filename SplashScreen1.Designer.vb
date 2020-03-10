@@ -14,7 +14,10 @@ Partial Class SplashScreen1
         End Try
     End Sub
     Friend WithEvents ApplicationTitle As System.Windows.Forms.Label
+    Friend WithEvents Version As System.Windows.Forms.Label
+    Friend WithEvents Copyright As System.Windows.Forms.Label
     Friend WithEvents MainLayoutPanel As System.Windows.Forms.TableLayoutPanel
+    Friend WithEvents DetailsLayoutPanel As System.Windows.Forms.TableLayoutPanel
 
     'Required by the Windows Form Designer
     Private components As System.ComponentModel.IContainer
@@ -40,7 +43,7 @@ Partial Class SplashScreen1
         Me.MainLayoutPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.MainLayoutPanel.ColumnCount = 2
         Me.MainLayoutPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 243.0!))
-        Me.MainLayoutPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 137.0!))
+        Me.MainLayoutPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100.0!))
         Me.MainLayoutPanel.Controls.Add(Me.DetailsLayoutPanel, 1, 1)
         Me.MainLayoutPanel.Controls.Add(Me.ApplicationTitle, 1, 0)
         Me.MainLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill
@@ -76,7 +79,7 @@ Partial Class SplashScreen1
         Me.Version.Name = "Version"
         Me.Version.Size = New System.Drawing.Size(241, 20)
         Me.Version.TabIndex = 1
-        Me.Version.Text = "Version {0}.{1:00}"
+        Me.Version.Text = "Version 1.0"
         '
         'Copyright
         '
@@ -87,7 +90,7 @@ Partial Class SplashScreen1
         Me.Copyright.Name = "Copyright"
         Me.Copyright.Size = New System.Drawing.Size(241, 40)
         Me.Copyright.TabIndex = 2
-        Me.Copyright.Text = "Copyright"
+        Me.Copyright.Text = "Copyright MWEProductions"
         '
         'ApplicationTitle
         '
@@ -120,7 +123,4 @@ Partial Class SplashScreen1
 
     End Sub
 
-    Friend WithEvents DetailsLayoutPanel As TableLayoutPanel
-    Friend WithEvents Version As Label
-    Friend WithEvents Copyright As Label
 End Class

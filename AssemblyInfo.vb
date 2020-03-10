@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("WindowsApp14")>
+<Assembly: AssemblyTitle("Color Mixer")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("Microsoft")>
-<Assembly: AssemblyProduct("WindowsApp14")>
+<Assembly: AssemblyProduct("WindowsApp13")>
 <Assembly: AssemblyCopyright("Copyright © Microsoft 2018")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("39d8323f-932f-47e4-9cf5-f9097147583f")>
+<Assembly: Guid("505707e9-8639-43ed-b6a3-3715ee6b152e")>
 
 ' Version information for an assembly consists of the following four values:
 '

@@ -1,0 +1,12 @@
+c:\users\jdwoo090\source\repos\WindowsApp13\WindowsApp13\bin\Release\WindowsApp13.exe.config
+c:\users\jdwoo090\source\repos\WindowsApp13\WindowsApp13\bin\Release\WindowsApp13.exe
+c:\users\jdwoo090\source\repos\WindowsApp13\WindowsApp13\bin\Release\WindowsApp13.pdb
+c:\users\jdwoo090\source\repos\WindowsApp13\WindowsApp13\bin\Release\WindowsApp13.xml
+c:\users\jdwoo090\source\repos\WindowsApp13\WindowsApp13\obj\Release\WindowsApp13.Form1.resources
+c:\users\jdwoo090\source\repos\WindowsApp13\WindowsApp13\obj\Release\WindowsApp13.Resources.resources
+c:\users\jdwoo090\source\repos\WindowsApp13\WindowsApp13\obj\Release\WindowsApp13.SplashScreen1.resources
+c:\users\jdwoo090\source\repos\WindowsApp13\WindowsApp13\obj\Release\WindowsApp13.vbproj.GenerateResource.cache
+c:\users\jdwoo090\source\repos\WindowsApp13\WindowsApp13\obj\Release\WindowsApp13.vbproj.CoreCompileInputs.cache
+c:\users\jdwoo090\source\repos\WindowsApp13\WindowsApp13\obj\Release\WindowsApp13.exe
+c:\users\jdwoo090\source\repos\WindowsApp13\WindowsApp13\obj\Release\WindowsApp13.xml
+c:\users\jdwoo090\source\repos\WindowsApp13\WindowsApp13\obj\Release\WindowsApp13.pdb
