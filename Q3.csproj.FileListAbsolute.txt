@@ -1,6 +1,0 @@
-C:\Users\jdwoo090\source\repos\Q3\Q3\bin\Debug\Q3.exe.config
-C:\Users\jdwoo090\source\repos\Q3\Q3\bin\Debug\Q3.exe
-C:\Users\jdwoo090\source\repos\Q3\Q3\bin\Debug\Q3.pdb
-C:\Users\jdwoo090\source\repos\Q3\Q3\obj\Debug\Q3.csprojAssemblyReference.cache
-C:\Users\jdwoo090\source\repos\Q3\Q3\obj\Debug\Q3.exe
-C:\Users\jdwoo090\source\repos\Q3\Q3\obj\Debug\Q3.pdb
