@@ -1,6 +1,0 @@
-C:\Users\jdwoo090\source\repos\Iteration_Practice\Iteration_Practice\bin\Debug\Iteration_Practice.exe.config
-C:\Users\jdwoo090\source\repos\Iteration_Practice\Iteration_Practice\bin\Debug\Iteration_Practice.exe
-C:\Users\jdwoo090\source\repos\Iteration_Practice\Iteration_Practice\bin\Debug\Iteration_Practice.pdb
-C:\Users\jdwoo090\source\repos\Iteration_Practice\Iteration_Practice\obj\Debug\Iteration_Practice.csprojAssemblyReference.cache
-C:\Users\jdwoo090\source\repos\Iteration_Practice\Iteration_Practice\obj\Debug\Iteration_Practice.exe
-C:\Users\jdwoo090\source\repos\Iteration_Practice\Iteration_Practice\obj\Debug\Iteration_Practice.pdb
