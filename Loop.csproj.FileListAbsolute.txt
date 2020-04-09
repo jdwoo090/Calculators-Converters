@@ -1,6 +1,0 @@
-C:\Users\jdwoo090\source\repos\Loop\Loop\bin\Debug\Loop.exe.config
-C:\Users\jdwoo090\source\repos\Loop\Loop\bin\Debug\Loop.exe
-C:\Users\jdwoo090\source\repos\Loop\Loop\bin\Debug\Loop.pdb
-C:\Users\jdwoo090\source\repos\Loop\Loop\obj\Debug\Loop.csprojAssemblyReference.cache
-C:\Users\jdwoo090\source\repos\Loop\Loop\obj\Debug\Loop.exe
-C:\Users\jdwoo090\source\repos\Loop\Loop\obj\Debug\Loop.pdb
