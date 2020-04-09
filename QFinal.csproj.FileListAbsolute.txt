@@ -1,6 +1,0 @@
-C:\Users\jdwoo090\source\repos\QFinal\QFinal\bin\Debug\QFinal.exe.config
-C:\Users\jdwoo090\source\repos\QFinal\QFinal\bin\Debug\QFinal.exe
-C:\Users\jdwoo090\source\repos\QFinal\QFinal\bin\Debug\QFinal.pdb
-C:\Users\jdwoo090\source\repos\QFinal\QFinal\obj\Debug\QFinal.csprojAssemblyReference.cache
-C:\Users\jdwoo090\source\repos\QFinal\QFinal\obj\Debug\QFinal.exe
-C:\Users\jdwoo090\source\repos\QFinal\QFinal\obj\Debug\QFinal.pdb
